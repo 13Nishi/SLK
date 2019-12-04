@@ -3,7 +3,7 @@ package com.example.model;
 import java.util.Date;
 
 public class Employee {
-	private int empId;
+	private int empid;
 	private String emp_name;
 	private String dob;
 	private String phno;
@@ -11,10 +11,10 @@ public class Employee {
 	private String password;
 	private String emprole;
 	public int getEmpid() {
-		return empId;
+		return empid;
 	}
 	public void setEmpid(int empid) {
-		this.empId = empid;
+		this.empid = empid;
 	}
 	public String getName() {
 		return emp_name;
