@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class Employee {
 	private int empid;
-	private String emp_name;
+	private String name;
 	private String dob;
 	private String phno;
 	private String username;
@@ -17,10 +17,10 @@ public class Employee {
 		this.empid = empid;
 	}
 	public String getName() {
-		return emp_name;
+		return name;
 	}
 	public void setName(String name) {
-		this.emp_name = name;
+		this.name = name;
 	}
 	public String getDob() {
 		return dob;
