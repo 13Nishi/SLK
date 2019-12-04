@@ -7,7 +7,7 @@ public class Employee {
 	private String name;
 	private String dob;
 	private String phno;
-	private String username;
+	private String usname;
 	private String password;
 	private String emprole;
 	public int getEmpid() {
@@ -35,10 +35,10 @@ public class Employee {
 		this.phno = phno;
 	}
 	public String getUsername() {
-		return username;
+		return usname;
 	}
 	public void setUsername(String username) {
-		this.username = username;
+		this.usname = username;
 	}
 	public String getPassword() {
 		return password;
